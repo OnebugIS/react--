@@ -1,0 +1,44 @@
+#foot{
+	width:100%;
+	height:0.84rem;
+	position:fixed;
+	left:0;
+	bottom:0;
+	background:#fff;
+	font-size:14px;
+	border-top:3px solid rgba(0,0,0,0.2);
+	ul{
+		width:100%;
+		height:0.84rem;
+		display: flex;
+		justify-content:space-between;
+		list-style: none;
+		li{
+			width:25%;
+			height:0.84rem;
+			.nav{
+				width:100%;
+				height:100%;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				text-decoration: none;
+				color:#666;
+				i{
+					position:relative;
+					top:-8px;
+					font-size: 22px;
+				}
+				span{
+					position:relative;
+					top:-8px;
+					font-size: 12px;
+				}
+			}
+			.active{
+				color:#65a032;
+			}
+		}
+	}
+}

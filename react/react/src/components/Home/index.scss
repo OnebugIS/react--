@@ -1,0 +1,337 @@
+
+#heads{
+	font-size:18px;
+	width:100%;
+	height:0.76rem;
+	box-shadow: 0 0.05rem 0.05rem 0 rgba(0,0,0,.2);
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:10;
+	background:#fff;
+	ul{
+		width:90%;
+		margin:0 auto;
+		height:0.76rem;
+		display: flex;
+		justify-content: space-between;
+		line-height:0.76rem;
+		list-style:none;
+		li:nth-of-type(1){
+			img{
+				width:51px;
+				height:14px;
+			}
+			span{
+				font-size: 0.28rem;
+				color:#65a032;
+				padding-left:0.1rem;
+				position:relative;
+				top:-0.04rem;
+			}
+	    }
+	    li:nth-of-type(2){
+	    	position:relative;
+	    	top:-0.16rem;
+	    	.iconfont{
+	    		font-size: 0.5rem;
+	    	}
+		}
+	}
+}
+
+#banner{
+	width:100%;
+	padding-top:5px;
+	height:3.2rem;
+	padding-top:0.76rem;
+	font-size:14px;
+	img{
+		width:100%;
+	}
+}
+
+#intro{
+	width:100%;
+	height:0.72rem;
+	font-size:14px;
+	img{
+		width:100%;
+	}
+}
+
+#winter{
+	width:100%;
+	height:2.2rem;
+	font-size:14px;
+	margin-bottom:0.1rem;
+	img{
+		width:100%;
+	}
+}
+
+#shuiguo{
+	font-size:14px;
+	width:100%;
+	height:1.28rem;
+	h3{
+		width:100%;
+		height:1.28rem;
+		font-size: 0.34rem;
+		line-height:1.28rem;
+		text-align: center;
+		font-weight: 400;
+	}
+}
+
+
+
+#shengxian{
+	font-size:14px;
+	width:100%;
+	height:1.28rem;
+	h3{
+		width:100%;
+		height:1.28rem;
+		font-size: 0.34rem;
+		line-height:1.28rem;
+		text-align: center;
+		font-weight: 400;
+	}
+}
+
+#shengxianIntro,#xinpinIntro,#shuiguoIntro,#huoguoIntro,#zishuIntro{
+	width:100%;
+	height:3.4rem;
+	margin-bottom:0.1rem;
+	ul{
+		list-style: none;
+		display: flex;
+		white-space: nowrap;
+		overflow: auto;
+		li{
+			width:1.92rem;
+			height:2.9rem;
+			padding:0.2rem 0.16rem 0.3rem;
+			.div1{
+				width:1.92rem;
+				height:1.92rem;
+				img{
+					width:1.92rem;
+					height:1.92rem;
+				}
+			}
+			p{
+				font-size: 14px;
+				width:100%;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+				margin-top:0.24rem;
+			}
+			.div2{
+				font-size: 14px;
+				height:0.32rem;
+				span{
+					position:relative;
+					top:-0.25rem;
+					color:orange;
+				}
+				i{
+					position:relative;
+					top:-0.25rem;
+					padding-left:0.06rem;
+					color:orange;
+				}
+			}
+		}
+	}
+}
+
+#xinpin,#jingxuan,#renqi{
+	font-size:14px;
+	width:100%;
+	height:1.28rem;
+	h3{
+		width:100%;
+		height:1.28rem;
+		font-size: 0.34rem;
+		line-height:1.28rem;
+		text-align: center;
+		font-weight: 400;
+	}
+}
+
+
+#tianxin{
+	font-size:14px;
+	width:100%;
+	height:3.2rem;
+	.tianchl{
+		width:94%;
+		height:3.2rem;
+		margin:0 auto;
+		display: flex;
+		justify-content: space-between;
+		.left{
+			width:2.4rem;
+			height:2.4rem;
+			img{
+				width:2.4rem;
+				height:2.4rem;
+				margin-top:0.5rem;
+			}
+		}
+		.right{
+			width:4rem;
+			h3{
+				font-size: 0.34rem;
+				font-weight: 400;
+				margin-bottom: 0.1rem;
+				margin-top:0.3rem;
+			}
+			.p1{
+				width:3.5rem;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+				color:#666;
+				font-size: 0.3rem;
+				margin-bottom: 0.7rem;
+			}
+			.p2{
+				margin-top:0.5rem;
+				display: flex;
+				justify-content: space-between;
+				span{
+					position:relative;
+					top:0.1rem;
+					color:orange;
+					font-size: 16px;
+				}
+				i{
+					position:relative;
+					top:-0.4rem;
+					color:orange;
+					font-size: 26px;
+				}
+			}
+		}
+	}
+
+}
+
+
+#rice{
+	width:100%;
+	height:4.62rem;
+	display:flex;
+	justify-content:space-between;
+	font-size:14px;
+	.left1{
+		width:50%;
+		height:4.62rem;
+		img{
+			width:100%;
+			height:100%;
+		}
+	}
+	.right1{
+		width:50%;
+		height:4.62rem;
+		margin: 0;
+		padding:0;
+		img{
+			width:100%;
+			height: 50%;
+			
+		}
+
+	}
+}
+
+#huoguoImg,#zishuImg{
+	width:100%;
+	height:3.2rem;
+	text-align:center;
+	img{
+		width:98%;
+		
+		height:3.2rem;
+	}
+}
+
+
+#renqiList{
+	width:100%;
+	font-size:14px;
+	margin-bottom:0.84rem;
+	ul{
+		width:96%;
+		margin: 0 auto;
+
+		li{
+			width:100%;
+			height:3.2rem;
+			display: flex;
+			justify-content: space-between;
+			.rendiv1{
+				width:2.4rem;
+				height: 2.4rem;
+				margin-top:0.4rem;
+				img{
+					width:100%;
+					height:100%;
+				}
+			}
+			.rendiv2{
+				width:4rem;
+				h3{
+					font-size: 0.34rem;
+					font-weight: 400;
+					margin-top:0.4rem;
+					width:100%;
+					overflow: hidden;
+					text-overflow:ellipsis;
+					white-space: nowrap;
+				}
+				.renp1{
+					margin-top:0.2rem;
+					width:100%;
+					overflow: hidden;
+					color:#666;
+					text-overflow:ellipsis;
+					white-space: nowrap;
+				}
+				.renp2{
+					margin-top:0.4rem;
+					display: flex;
+					justify-content: space-between;
+					span{
+						position:relative;
+						top:0.3rem;
+						color:orange;
+					}
+					i{
+						font-size: 0.5rem;
+						color:orange;
+						position:relative;
+						top:-0.2rem;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+

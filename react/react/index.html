@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>test</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<!-- <link href="/dist/css/index.css" rel="stylesheet"> -->
+<style>
+	*{
+		margin:0;
+		padding:0;
+	}
+	html,body{
+		width:100%;
+		height:100%;
+		font-size:100px;
+	}
+</style>
+</head>
+<body>
+    <div id="box">
+    	
+    </div>
+    <script>
+     
+    </script>
+    <script type="text/javascript" src="/dist/index.bundle.js"></script>
+</body>
+</html>
+
+<script>
+	
+
+	// 如果想布在任何屏幕下都能够适合的页面，需要动态计算并添加一个font-size,并且量的值也不用除以2，直接除以100就可以，100也是我们自己定义的只是为了好算
+	// 750是UI给我们的图标准模型
+	document.documentElement.style.fontSize=document.documentElement.clientWidth/750*100+"px";
+
+</script>
+
